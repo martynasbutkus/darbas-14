@@ -2,3 +2,16 @@ header {
     background: url(imgs/header.jpeg);
     height: 300px;
 }
+
+@media (max-width: 768px){
+    section{
+        .row{
+            flex-direction: column;
+            flex-wrap: wrap;
+            display: flex;
+            .col{
+                width: 100%;
+            }
+        }
+    }
+}
